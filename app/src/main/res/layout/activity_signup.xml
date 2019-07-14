@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:hint="Enter ID"
+        android:textSize="25sp"
+        android:id="@+id/signup_id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:hint="Enter Password"
+        android:textSize="25sp"
+
+        android:id="@+id/signup_pass"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:hint="Confirm Password"
+        android:textSize="25sp"
+        android:id="@+id/signup_confirmpass"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:hint="Enter email"
+        android:textSize="25sp"
+        android:id="@+id/signup_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:hint="Enter Phone No"
+        android:textSize="25sp"
+        android:id="@+id/signup_pno"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save"
+        android:textSize="25sp"
+        android:id="@+id/signup_savebtn"/>
+</LinearLayout>
